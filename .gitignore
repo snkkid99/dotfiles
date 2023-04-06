@@ -1,5 +1,10 @@
-*
+*.bak
+*.zip
+*.tmp
+.DS_Store
+.swp
+AppData/
 
-!/Documents\PowerShell
-!/AppData/Local/nvim
-!README.md
+!Documents/PowerShell/
+!AppData/Local/nvim/
+#!README.md
