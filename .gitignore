@@ -3,8 +3,8 @@
 *.tmp
 .DS_Store
 .swp
-AppData/
+#AppData/
 
-!Documents/PowerShell/
-!AppData/Local/nvim/
+#!Documents/PowerShell/
+#!AppData/Local/nvim/
 #!README.md
