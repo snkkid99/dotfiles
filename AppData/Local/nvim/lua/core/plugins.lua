@@ -26,11 +26,10 @@ local plugins = {
   'L3MON4D3/LuaSnip',
   'saadparwaiz1/cmp_luasnip',
   'rafamadriz/friendly-snippets',
-  {
-    "williamboman/mason.nvim",
-    "williamboman/mason-lspconfig.nvim",
-    "neovim/nvim-lspconfig"
-  },
+  'williamboman/mason.nvim',
+  'williamboman/mason-lspconfig.nvim',
+  'neovim/nvim-lspconfig',
+  'glepnir/lspsaga.nvim',
   {
     'nvim-telescope/telescope.nvim',
     tag = '0.1.1',
