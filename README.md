@@ -14,4 +14,5 @@ git checkout main -fit init
 git remote add origin <your-repo-url>
 git pull
 git checkout main -f
+git submodule update --init --recursive
 ```
