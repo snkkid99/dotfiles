@@ -2,3 +2,6 @@
 	path = AppData/nvim
 	url = https://github.com/snkkid99/NvChad.git
 	branch = v2.0
+[submodule "AppData/Local/nvim"]
+	path = AppData/Local/nvim
+	url = https://github.com/snkkid99/NvChad.git
