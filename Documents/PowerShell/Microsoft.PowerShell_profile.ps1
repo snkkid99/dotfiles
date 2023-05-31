@@ -45,4 +45,8 @@ function devEnv()
   Enter-VsDevShell 2ebd8216 -SkipAutomaticLocation -DevCmdArguments "-arch=x64 -host_arch=x64"
 }
 
-. "$PSScriptRoot\Common.ps1"
+function gitp()
+{
+  git commit -am NoMsg
+  git push
+}
