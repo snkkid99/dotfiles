@@ -1,6 +1,5 @@
-# snkkid dotfiles
-
-Powershell + NeoVim for windows
+# dotfiles for Windows
+Powershell + NeoVim
 
 ## Powershell
 - oh-my-posh
