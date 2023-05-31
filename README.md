@@ -6,7 +6,7 @@ Powershell 7^ + NeoVim
 - PSFzf
 
 ## NeoVim
-- [NvChad](https://github.com/NvChad/NvChad)
+- fork of [NvChad](https://github.com/NvChad/NvChad)
 
 ## Install
 Software _to review_
