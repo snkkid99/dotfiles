@@ -2,7 +2,7 @@
 
 Powershell + NeoVim for windows
 
-## Powershel
+## Powershell
 - oh-my-posh
 - PSFzf
 
