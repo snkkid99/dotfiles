@@ -1,4 +1,5 @@
-#snkkid dotfiles
+# snkkid dotfiles
+
 For windows Powershell + NeoVim
 
 init
