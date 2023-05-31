@@ -9,7 +9,7 @@ Powershell + NeoVim for windows
 ## NeoVim
 - [NvChad](https://github.com/NvChad/NvChad)
 
-init
+## Install
 ```
 cd ~
 git init
