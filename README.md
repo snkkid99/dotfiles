@@ -12,7 +12,7 @@ Powershell + NeoVim
 Software _to review_
 ```
 winget install Git.Git
-winget install JanDeDobbeleer.OhMyPosh -s winget
+winget install JanDeDobbeleer.OhMyPosh
 winget install Neovim.Neovim
 ```
 
