@@ -1,6 +1,13 @@
 # snkkid dotfiles
 
-For windows Powershell + NeoVim
+Powershell + NeoVim for windows
+
+## Powershel
+oh-my-posh
+PSFzf
+
+## NeoVim
+[NvChad](https://github.com/NvChad/NvChad)
 
 init
 ```
