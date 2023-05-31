@@ -44,3 +44,9 @@ function devEnv()
   Import-Module "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\Microsoft.VisualStudio.DevShell.dll" 
   Enter-VsDevShell 2ebd8216 -SkipAutomaticLocation -DevCmdArguments "-arch=x64 -host_arch=x64"
 }
+
+function gitp()
+{
+  git commit -am NoMsg
+  git push
+}
