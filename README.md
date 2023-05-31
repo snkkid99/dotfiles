@@ -9,6 +9,13 @@ Powershell + NeoVim
 - [NvChad](https://github.com/NvChad/NvChad)
 
 ## Install
+Software __to review__
+```
+winget install Git.Git
+winget install JanDeDobbeleer.OhMyPosh -s winget
+winget install Neovim.Neovim
+```
+Config
 ```
 cd ~
 git init
