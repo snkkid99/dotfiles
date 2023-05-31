@@ -3,11 +3,11 @@
 Powershell + NeoVim for windows
 
 ## Powershel
-oh-my-posh
-PSFzf
+- oh-my-posh
+- PSFzf
 
 ## NeoVim
-[NvChad](https://github.com/NvChad/NvChad)
+- [NvChad](https://github.com/NvChad/NvChad)
 
 init
 ```
