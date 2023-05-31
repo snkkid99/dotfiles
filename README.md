@@ -1,5 +1,5 @@
 # dotfiles for Windows
-Powershell + NeoVim
+Powershell 7^ + NeoVim
 
 ## Powershell
 - oh-my-posh
