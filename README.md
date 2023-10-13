@@ -6,7 +6,7 @@ Powershell 7^ + NeoVim
 - PSFzf
 
 ## NeoVim
-- fork of [NvChad](https://github.com/NvChad/NvChad)
+https://github.com/LunarVim/LunarVim
 
 ## Install
 Software _to review_
@@ -23,7 +23,27 @@ git init
 git remote add origin https://github.com/snkkid99/dotfiles.git
 git pull
 git checkout main -f
-git submodule update --init --recursive
-cd .\AppData\Local\nvim
-git checkout v2.0
+```
+
+Lunarvim
+
+Dans
+~\AppData\Local\nvim-data\site\pack\lazy\opt\telescope-fzf-native.nvim
+```
+cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release
+cmake --build build --config Release
+cmake --install build --prefix build
+```
+
+config.lua:
+```
+require 'nvim-treesitter.install'.compilers = { "cl" }
+require'nvim-treesitter.configs'.setup {
+  ensure_installed = { 
+    "c", "lua", "vim", "vimdoc", "python", "ini", "html", "sql", "c_sharp", 
+    "css", "cpp", "javascript", "markdown", "markdown_inline", "regex", "comment",
+    "php", "scss", "typescript", "tsx", "java", "json", "yaml", "xml", "dockerfile",
+    "diff", "csv", "gitignore", "gitcommit", "gitattributes", "bash"
+  }
+}
 ```
