@@ -41,8 +41,9 @@ function which ($command) {
 
 function devEnv()
 {
-  Import-Module "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\Microsoft.VisualStudio.DevShell.dll" 
-  Enter-VsDevShell 2ebd8216 -SkipAutomaticLocation -DevCmdArguments "-arch=x64 -host_arch=x64"
+  $installPath = &"C:\Program Files (x86)\Microsoft Visual Studio\Installer\vswhere.exe" -property installationpath -latest
+  Import-Module (Join-Path $installPath "Common7\Tools\Microsoft.VisualStudio.DevShell.dll")
+  Enter-VsDevShell -VsInstallPath $installPath -SkipAutomaticLocation -DevCmdArguments "-arch=x64 -host_arch=x64"
 }
 
 function gitp()
