@@ -26,6 +26,9 @@ git checkout main -f
 ```
 
 Lunarvim
+```
+git clone https://github.com/LunarVim/LunarVim.git $HOME\AppData\Local\nvim
+```
 
 Dans
 ~\AppData\Local\nvim-data\site\pack\lazy\opt\telescope-fzf-native.nvim
