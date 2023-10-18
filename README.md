@@ -49,4 +49,10 @@ require'nvim-treesitter.configs'.setup {
     "diff", "csv", "gitignore", "gitcommit", "gitattributes", "bash"
   }
 }
+lvim.plugins = {
+  "kwakzalver/duckytype.nvim",
+  config = function()
+    require('duckytype').setup{}
+  end,
+}
 ```
