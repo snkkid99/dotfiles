@@ -25,7 +25,7 @@ git pull
 git checkout main -f
 ```
 
-Lunarvim
+Lunarvim:
 ```
 git clone https://github.com/LunarVim/LunarVim.git $HOME\AppData\Local\nvim
 ```
