@@ -1,10 +1,18 @@
-*.bak
-*.zip
-*.tmp
-.DS_Store
-.swp
+#*.bak
+#*.zip
+#*.tmp
+#.DS_Store
+#.swp
+#.*
 #AppData/
+#Desktop/
+#Downloads/
+#Documents/
+#Pictures/
+#source/
+#Saved Games/
+*
 
-#!Documents/PowerShell/
+!Documents/PowerShell/
 #!AppData/Local/nvim/
-#!README.md
+!README.md
