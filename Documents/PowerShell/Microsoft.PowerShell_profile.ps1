@@ -4,6 +4,7 @@
 #     &starship module character
 # }
 # Invoke-Expression (&starship init powershell)
+
 # Enable-TransientPrompt
 
 # set PowerShell to UTF-8
