@@ -13,6 +13,6 @@
 #Saved Games/
 *
 
-!Documents/PowerShell/*
+!Documents/PowerShell/
 #!AppData/Local/nvim/
 !README.md
