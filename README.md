@@ -40,6 +40,7 @@ cmake --install build --prefix build
 
 config.lua:
 ```
+lvim.keys.normal_mode["<C-q>"] = false
 require 'nvim-treesitter.install'.compilers = { "cl" }
 require'nvim-treesitter.configs'.setup {
   ensure_installed = { 
