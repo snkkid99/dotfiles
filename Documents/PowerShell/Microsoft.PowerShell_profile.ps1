@@ -32,7 +32,7 @@ Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory
 # Alias
 Set-Alias ll ls
 Set-Alias grep findstr
-Set-Alias vim nvim
+# Set-Alias vim nvim
 
 # Utilities
 function which ($command) {
