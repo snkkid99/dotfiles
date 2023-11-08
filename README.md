@@ -50,10 +50,24 @@ require'nvim-treesitter.configs'.setup {
     "diff", "csv", "gitignore", "gitcommit", "gitattributes", "bash"
   }
 }
-lvim.plugins = {
-  "kwakzalver/duckytype.nvim",
-  config = function()
-    require('duckytype').setup{}
-  end,
+
+lvim.plugins = 
+{
+  {
+    "kwakzalver/duckytype.nvim",
+    config = function()
+      require('duckytype').setup{}
+    end,
+  },
+  {
+   "Exafunction/codeium.nvim",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+       "hrsh7th/nvim-cmp",
+    },
+    config = function()
+      require("codeium").setup({})
+    end,
+  }
 }
 ```
