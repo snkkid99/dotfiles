@@ -17,6 +17,7 @@ Import-Module -Name Terminal-Icons
 # omp
 $omp_config = Join-Path $PSScriptRoot ".\omp.json"
 oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
+#Invoke-Expression (&starship init powershell)
 
 # PSReadLine
 Set-PSReadLineOption -EditMode Emacs
