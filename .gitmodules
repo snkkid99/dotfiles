@@ -1,6 +1,3 @@
-[submodule "AppData/nvim"]
-	path = AppData/nvim
-	url = https://github.com/snkkid99/NvChad.git
 [submodule "AppData/Local/nvim"]
 	path = AppData/Local/nvim
 	url = https://github.com/snkkid99/NvChad.git
