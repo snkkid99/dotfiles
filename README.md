@@ -25,6 +25,16 @@ git pull
 git checkout main -f
 ```
 
+AstroNim
+```
+Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
+Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
+git clone --depth 1 https://github.com/AstroNvim/template $env:LOCALAPPDATA\nvim
+Remove-Item $env:LOCALAPPDATA\nvim\.git -Recurse -Force
+nvim
+```
+
+
 Lunarvim
 ```
 git clone https://github.com/LunarVim/LunarVim.git $HOME\AppData\Local\nvim
