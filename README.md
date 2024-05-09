@@ -1,5 +1,5 @@
 # dotfiles for Windows
-Powershell 7^ + NeoVim (AstroNim)
+Powershell 7^ + NeoVim (AstroNvim)
 
 ## Powershell
 - oh-my-posh
@@ -11,6 +11,10 @@ Software _to review_
 winget install Git.Git
 winget install JanDeDobbeleer.OhMyPosh
 winget install Neovim.Neovim
+winget install dundee.gdu
+winget install Clement.bottom
+winget install JesseDuffield.lazygit
+winget install BurntSushi.ripgrep.MSVC
 ```
 
 Config
