@@ -33,6 +33,7 @@ Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory
 # Alias
 Set-Alias ll ls
 Set-Alias grep findstr
+Set-Alias -Name gdu -Value gdu_windows_amd64
 # Set-Alias vim nvim
 
 # Utilities
