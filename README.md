@@ -26,7 +26,7 @@ git pull
 git checkout main -f
 ```
 
-## AstroNim
+## AstroNvim
 https://astronvim.com/
 ```
 Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
