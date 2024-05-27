@@ -26,6 +26,9 @@ git pull
 git checkout main -f
 ```
 
+## Maj
+Update-Module Terminal-Icons
+
 ## AstroNvim
 https://astronvim.com/
 ```
