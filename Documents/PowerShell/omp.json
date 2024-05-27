@@ -91,7 +91,7 @@
           "background": "#40c4ff",
           "leading_diamond": " \ue0b6",
           "trailing_diamond": "\ue0b4",
-          "template": " \uf5ef {{ .CurrentDate | date .Format }} "
+          "template": " \udb80\udcf0 {{ .CurrentDate | date .Format }} "
         }
       ]
     },
