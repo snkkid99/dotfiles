@@ -7,7 +7,7 @@ return {
         -- first key is the mode
         n = {
           --["<Leader>vn"] = { ':execute "normal! \\<C-v><cr>"', desc = "New tab" },
-          ["<C-x>"] = { "<C-v>", desc = "Visual block" },
+          ["X"] = { "<C-v>", desc = "Visual block mode" },
         },
         t = {},
       },
