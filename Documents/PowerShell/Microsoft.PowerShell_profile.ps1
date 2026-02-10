@@ -11,7 +11,7 @@
 [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
 
 # import
-Import-Module posh-git
+# Import-Module posh-git
 Import-Module -Name Terminal-Icons
 
 # omp
